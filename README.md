@@ -1,2 +1,2 @@
 # Client-Server
-Simple client server chat using multithreading
+This is a simple chat server and client implementation in Python. The chat server can handle multiple clients and broadcast messages to all connected clients. The chat client connects to the chat server and allows the user to send messages and receive messages from other clients. The chat server also logs all messages to a log file in the format "timestamp: username: message". To use this chat application, you need to start the chat server on a designated port and then run the chat client, specifying the server's hostname, port, and username.
